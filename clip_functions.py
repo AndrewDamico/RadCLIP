@@ -11,7 +11,7 @@ __version__ = "0.0.1"
 __maintainer__ = "Andrew Damico"
 __email__ = "andrew.damico@u.northwestern.edu"
 
-def clip_wraper_creator():
+def clip_wrapper_creator():
     """create a dummy CLIPModel to wrap text and vision encoders in order to use CLIPTrainer"""
     config = {'num_hidden_layers': 0,
               'max_position_embeddings': 0,
