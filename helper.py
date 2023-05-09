@@ -9,6 +9,10 @@ __version__ = "0.0.1"
 __maintainer__ = "Andrew Damico"
 __email__ = "andrew.damico@u.northwestern.edu"
 
+import torch
+import gc
+import multiprocessing
+
 def clear_gpu():
     torch.clear_autocast_cache()
     torch.cuda.ipc_collect()
