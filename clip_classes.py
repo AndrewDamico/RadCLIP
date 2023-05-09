@@ -15,6 +15,7 @@ __email__ = "andrew.damico@u.northwestern.edu"
 from torch.utils.data import Dataset
 from transformers import TrainingArguments, Trainer
 import torch
+from torch.cuda.amp import autocast
 
 class CLIPDataset(Dataset):
     def __init__(self, image_paths: list, text: list, mode: str = 'train'):
