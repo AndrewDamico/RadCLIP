@@ -25,14 +25,14 @@ class CLIPDataset(Dataset):
 
         if mode == 'train':
             self.augment = transforms.Compose([
-                transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
-                transforms.RandomHorizontalFlip(p=0.5),
+                #transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
+                #transforms.RandomHorizontalFlip(p=0.5),
                 transforms.ToTensor(),
                 transforms.Normalize(mean=MEAN, std=STD)
             ])
         elif mode == 'test':
             self.augment = transforms.Compose([
-                transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
+                #transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
                 transforms.ToTensor(),
                 transforms.Normalize(mean=MEAN, std=STD)
             ])
