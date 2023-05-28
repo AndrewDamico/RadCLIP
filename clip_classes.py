@@ -61,5 +61,8 @@ class CLIPTrainer(Trainer):
                     loss = self.compute_loss(model, inputs)
             except:
                 loss = self.compute_loss(model, inputs)
+        
+        #self.log("val_loss", loss)
+        
         return (loss, None, None)
 
