@@ -1,6 +1,12 @@
 #!/usr/bin/env python
-# coding: utf-8
 
+__author__ = "Vivek Chamala"
+__copyright__ = "Copyright 2023"
+__credits__ = ["Andrew D'Amico", "Christoper Alexander", "Katya Nosulko", "Vivek Chamala", "Matthew Conger"]
+__license__ = ""
+__version__ = "0.0.1"
+__maintainer__ = "Andrew Damico"
+__email__ = "andrew.damico@u.northwestern.edu"
 import cv2
 import numpy as np
 import pandas as pd

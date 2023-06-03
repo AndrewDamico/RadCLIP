@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
-__author__ = "Andrew D'Amico, Christoper Alexander, Katya Nosulko, Vivek Chamala, Matthew Conger"
+__author__ = "Andrew D'Amico"
 __copyright__ = "Copyright 2023"
-__credits__ = ["Rob Knight", "Peter Maxwell", "Gavin Huttley",
-                    "Matthew Wakefield"]
+__credits__ = ["Andrew D'Amico", "Christoper Alexander", "Katya Nosulko", "Vivek Chamala", "Matthew Conger"]
 __license__ = ""
 __version__ = "0.0.1"
 __maintainer__ = "Andrew Damico"

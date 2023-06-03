@@ -1,15 +1,13 @@
 #!/usr/bin/env python
 
-"""clip_functions.py: Various helper functions for training CLIP"""
-
-__author__ = "Andrew D'Amico, Christoper Alexander, Katya Nosulko, Vivek Chamala, Matthew Conger"
+__author__ = "Andrew D'Amico"
 __copyright__ = "Copyright 2023"
-__credits__ = ["Rob Knight", "Peter Maxwell", "Gavin Huttley",
-                    "Matthew Wakefield"]
+__credits__ = ["Andrew D'Amico", "Christoper Alexander", "Katya Nosulko", "Vivek Chamala", "Matthew Conger"]
 __license__ = ""
 __version__ = "0.0.1"
 __maintainer__ = "Andrew Damico"
 __email__ = "andrew.damico@u.northwestern.edu"
+
 
 def clip_wrapper_creator():
     """create a dummy CLIPModel to wrap text and vision encoders in order to use CLIPTrainer"""
